@@ -1,0 +1,26 @@
+{
+  "name": "final_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^8.0.2",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.1.2",
+    "html-pdf": "^2.2.0",
+    "multer": "^1.4.1",
+    "mysql": "github:mysqljs/mysql",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7",
+    "validator": "^10.11.0"
+  }
+}
